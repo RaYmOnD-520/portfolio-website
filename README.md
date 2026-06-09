@@ -1,16 +1,32 @@
-# React + Vite
+# Raymond Wong — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Wong Huai Wen (Raymond), a Computer Science graduate specialising in Cybersecurity and Full-Stack Development based in Melbourne, Australia.
 
-Currently, two official plugins are available:
+## Live Site
+https://raymond-520.github.io/portfolio-website/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- HTML5, CSS3, Vanilla JavaScript
+- Space Grotesk + JetBrains Mono fonts
+- Deployed via GitHub Pages
 
-## React Compiler
+## Design
+Terminal/CRT aesthetic with burnt orange accent — designed with Claude Design and rebuilt as a clean HTML/CSS/JS site.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
+- Hero (3 variants: Big Type, Terminal Boot, Split Readout)
+- About Me
+- Skills & Tooling
+- Projects
+- Experience & Education
+- Contact
 
-## Expanding the ESLint configuration
+## Deployment
+```bash
+npm run deploy
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Development
+```bash
+npm run dev
+```
