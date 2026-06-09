@@ -4,6 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Education />
       <section id="contact" className="min-h-screen bg-gray-800 flex items-center justify-center">
         <h2 className="text-4xl font-bold text-white">Contact Section</h2>
       </section>
