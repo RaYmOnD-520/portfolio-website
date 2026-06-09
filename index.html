@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" data-hero="type" data-scanlines="off">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Raymond Wong — Cybersecurity & Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="ambient"></div>
+
+<!-- ============================ NAV ============================ -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="sigil">$</span><span>raymond</span><span class="mono">.dev</span><span class="blink">_</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about"><span class="idx">01</span>about</a></li>
+      <li><a href="#skills"><span class="idx">02</span>skills</a></li>
+      <li><a href="#projects"><span class="idx">03</span>projects</a></li>
+      <li><a href="#experience"><span class="idx">04</span>experience</a></li>
+      <li><a href="#education"><span class="idx">05</span>education</a></li>
+      <li><a href="#contact"><span class="idx">06</span>contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn" href="#contact"><span class="pre">$</span> get in touch</a>
+    </div>
+    <button class="nav-burger" id="burger" aria-label="Menu">≡</button>
+  </div>
+</nav>
+
+<!-- ============================ HERO ============================ -->
+<header class="hero" id="top" data-screen-label="Hero">
+  <div class="wrap">
+
+    <!-- variant A: big type -->
+    <div class="hero-variant v-type">
+      <div class="hero-status"><span class="dot"></span><span class="mono">available for opportunities · Melbourne, AU</span></div>
+      <div class="eyebrow mono">$ ./introduce.sh --name</div>
+      <h1>Wong Huai Wen<br /><span class="ln2">(Raymond)</span></h1>
+      <div class="role mono">&gt; <span class="scramble" data-scramble="Cybersecurity &amp; Full-Stack Developer">Cybersecurity &amp; Full-Stack Developer</span><span class="cursor"></span></div>
+      <p class="blurb">Computer Science graduate building secure, well-architected software — from AI-powered backends to clean, fast frontends. I care about the details attackers look for.</p>
+      <div class="hero-actions">
+        <a class="btn solid" href="#projects"><span class="pre">›</span> view projects</a>
+        <a class="btn" href="#contact"><span class="pre">$</span> contact me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener">↗ github</a>
+        <a href="https://linkedin.com/in/wong-huai-wen-5447701b3" target="_blank" rel="noopener">↗ linkedin</a>
+        <a href="mailto:wonghuaiwen@gmail.com">↗ email</a>
+      </div>
+    </div>
+
+    <!-- variant B: terminal boot -->
+    <div class="hero-variant v-boot">
+      <div class="win term">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name">visitor@<span class="accent">raymond.dev</span> — bash — 80×24</span>
+        </div>
+        <div class="term-body" id="bootBody"><!-- typed by JS --></div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn solid" href="#projects"><span class="pre">›</span> view projects</a>
+        <a class="btn" href="#contact"><span class="pre">$</span> contact me</a>
+      </div>
+    </div>
+
+    <!-- variant C: split readout -->
+    <div class="hero-variant v-split">
+      <div class="lead">
+        <div class="eyebrow mono">// initializing profile…</div>
+        <h1>Wong Huai Wen <span class="accent">(Raymond)</span></h1>
+        <div class="role mono">&gt; <span class="scramble" data-scramble="Cybersecurity &amp; Full-Stack Developer">Cybersecurity &amp; Full-Stack Developer</span></div>
+        <div class="hero-actions">
+          <a class="btn solid" href="#projects"><span class="pre">›</span> view projects</a>
+          <a class="btn" href="#contact"><span class="pre">$</span> contact me</a>
+        </div>
+      </div>
+      <div class="win readout">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/system.status</span>
+        </div>
+        <div class="term-body">
+          <div class="row"><span class="k">user</span><span class="v">raymond</span></div>
+          <div class="row"><span class="k">role</span><span class="v accent">cs.graduate</span></div>
+          <div class="row"><span class="k">focus</span><span class="v">cybersecurity</span></div>
+          <div class="row"><span class="k">location</span><span class="v">Melbourne, AU</span></div>
+          <div class="row"><span class="k">status</span><span class="v ok">● available</span></div>
+          <div class="bars">
+            <div class="barline">[████████████████░░░░] 80%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ ABOUT ============================ -->
+<section data-sec id="about" data-screen-label="About">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">01 // about</span>
+      <h2 class="sec-title">Who Am I?</h2>
+      <span class="sec-rule"></span>
+    </div>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p>I'm a <strong>Computer Science graduate</strong> from Swinburne University, specialising in <span class="accent">cybersecurity</span> and based in Melbourne. I sit at the intersection of building and breaking — writing full-stack software with the instincts of someone who thinks about how it could be attacked.</p>
+        <p>My recent work pulls modern AI into real applications: <strong>retrieval-augmented systems</strong> with FastAPI and ChromaDB on the backend, and fast, considered React frontends on top. I like clean architecture, sensible defaults, and code that fails safely.</p>
+        <p>I'm looking for a role where security and engineering aren't separate teams — somewhere I can ship product and keep it hardened. Open to graduate and junior positions across Melbourne and remote.</p>
+      </div>
+      <aside class="about-facts win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">profile.json</span>
+        </div>
+        <div class="term-body">
+          <div class="fact"><span class="k">name</span><span class="v">Raymond Wong</span></div>
+          <div class="fact"><span class="k">based</span><span class="v">Melbourne, AU</span></div>
+          <div class="fact"><span class="k">degree</span><span class="v">B.CompSci</span></div>
+          <div class="fact"><span class="k">focus</span><span class="v">security · full-stack</span></div>
+          <div class="fact"><span class="k">grad</span><span class="v">Dec 2025</span></div>
+          <div class="fact"><span class="k">status</span><span class="v ok">● available</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SKILLS ============================ -->
+<section data-sec id="skills" data-screen-label="Skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">02 // skills</span>
+      <h2 class="sec-title">stack &amp; tooling</h2>
+      <span class="sec-rule"></span>
+    </div>
+    <div class="skill-cols">
+
+      <div class="skill-card reveal">
+        <h3>Languages</h3>
+        <div class="meter"><div class="meter-top"><span>Python</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="90"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>JavaScript</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="85"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>SQL</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="72"></div></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3>Backend / Data</h3>
+        <div class="meter"><div class="meter-top"><span>FastAPI</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="88"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>ChromaDB / Vector DB</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="80"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>REST APIs</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="85"></div></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3>Frontend</h3>
+        <div class="meter"><div class="meter-top"><span>React</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="86"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>Vite</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="80"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>Tailwind CSS</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="84"></div></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3>AI / ML</h3>
+        <div class="meter"><div class="meter-top"><span>RAG pipelines</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="82"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>LLM integration</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="80"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>Embeddings / NLP</span><span class="lvl">familiar</span></div><div class="meter-track"><div class="meter-fill" data-w="68"></div></div></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3>Security</h3>
+        <p class="skill-note"><span class="accent">//</span> coursework + self-study focus. Replace these with your hands-on stack:</p>
+        <div class="skill-stack">
+          <span class="tag">app security</span>
+          <span class="tag">threat modelling</span>
+          <span class="tag">OWASP Top 10</span>
+          <span class="tag">network fundamentals</span>
+          <span class="tag">// add tools</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3>Workflow</h3>
+        <div class="skill-stack">
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Docker</span>
+          <span class="tag">CI basics</span>
+          <span class="tag">Agile</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROJECTS ============================ -->
+<section data-sec id="projects" data-screen-label="Projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">03 // projects</span>
+      <h2 class="sec-title">selected work</h2>
+      <span class="sec-rule"></span>
+    </div>
+    <div class="projects">
+
+      <!-- FEATURED -->
+      <article class="proj feature win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">rag-ai-assistant</span></span>
+        </div>
+        <div class="win-body">
+          <div class="proj-main">
+            <h3>RAG AI Assistant</h3>
+            <div class="proj-sub mono">retrieval-augmented assistant · full-stack</div>
+            <p>A document-grounded AI assistant that ingests a knowledge base into a <strong>ChromaDB</strong> vector store, retrieves relevant context on each query, and streams answers from <strong>Claude</strong> through a <strong>FastAPI</strong> backend. The React + Vite + Tailwind frontend delivers a fast, chat-style interface with source citations — so responses stay grounded instead of hallucinated.</p>
+            <div class="tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">React</span>
+              <span class="tag">Claude API</span>
+              <span class="tag">ChromaDB</span>
+              <span class="tag">Vite</span>
+              <span class="tag">Tailwind</span>
+            </div>
+            <div class="proj-links">
+              <a class="btn solid" href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
+              <a class="btn" href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
+            </div>
+          </div>
+          <div class="proj-side">
+            <div class="side-h">// highlights</div>
+            <ul>
+              <li>Semantic retrieval over embedded docs</li>
+              <li>Streaming responses with source citations</li>
+              <li>Typed FastAPI endpoints + async I/O</li>
+            </ul>
+            <div class="side-h">// stack</div>
+            <div class="metric"><span class="num">4</span><span class="lbl">services orchestrated</span></div>
+            <div class="metric"><span class="num">RAG</span><span class="lbl">grounded generation</span></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- placeholder slots -->
+      <article class="proj slot win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">new-project</span></span>
+        </div>
+        <div class="win-body">
+          <div class="plus">+</div>
+          <div class="slot-txt">
+            <b>Add another project</b>
+            <span>// drop in a security tool, CTF writeup, or app — replace this slot with the real thing.</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj slot win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">new-project</span></span>
+        </div>
+        <div class="win-body">
+          <div class="plus">+</div>
+          <div class="slot-txt">
+            <b>Add another project</b>
+            <span>// 3–4 strong projects reads best. Tell me about more and I'll build the cards.</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXPERIENCE + EDUCATION ============================ -->
+<section data-sec id="experience" data-screen-label="Experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker">04 // experience &amp; education</span>
+      <h2 class="sec-title">the timeline</h2>
+      <span class="sec-rule"></span>
+    </div>
+    <div class="two-col">
+
+      <!-- EXPERIENCE -->
+      <div class="reveal">
+        <div class="tl-label mono">experience.log</div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-when mono">Jan 2026 — Present</div>
+            <h4 class="tl-role">Store Developer &amp; Founder</h4>
+            <div class="tl-org mono">PawSignal · Remote</div>
+            <p class="tl-desc">Built and launched a live Shopify e-commerce store from scratch. Handled all technical and operational aspects independently.</p>
+            <div class="tl-tags">
+              <span class="tag">Self-employed</span>
+              <span class="tag">E-commerce</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-when mono">Jun 2025 — Dec 2025</div>
+            <h4 class="tl-role">Badminton Club President</h4>
+            <div class="tl-org mono">Swinburne University · Melbourne</div>
+            <p class="tl-desc">Led Swinburne's Badminton Club, guided club to win Best Sports Club of the Year 2025. Oversaw operations, events, budgeting, and member management.</p>
+            <div class="tl-tags">
+              <span class="tag">Part-time</span>
+              <span class="tag">Leadership</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-when mono">Mar 2025 — Dec 2025</div>
+            <h4 class="tl-role">Event &amp; Experience Assistant</h4>
+            <div class="tl-org mono">Swinburne Student Association · Melbourne</div>
+            <p class="tl-desc">Assisted with event logistics, setup, and on-ground coordination. Communicated with students and stakeholders from diverse backgrounds.</p>
+            <div class="tl-tags">
+              <span class="tag">On-site</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-when mono">Sep 2022 — Feb 2023</div>
+            <h4 class="tl-role">Bond Broker</h4>
+            <div class="tl-org mono">Harlow's &amp; MGI Sdn Bhd · Kuala Lumpur</div>
+            <p class="tl-desc">Operated on a live bond trading floor with real-time data entry using Bloomberg VCON. Managed high-pressure phone communications with bank dealers.</p>
+            <div class="tl-tags">
+              <span class="tag">Full-time</span>
+              <span class="tag">Finance</span>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-when mono">Jun 2022 — Aug 2022</div>
+            <h4 class="tl-role">IT Technician Intern</h4>
+            <div class="tl-org mono">Harlow's &amp; MGI Sdn Bhd · Kuala Lumpur</div>
+            <p class="tl-desc">Troubleshot computer hardware, software, and network issues. Supported day-to-day IT operations.</p>
+            <div class="tl-tags">
+              <span class="tag">Internship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="reveal" id="education" data-screen-label="Education">
+        <div class="tl-label mono">education.log</div>
+        <div class="edu-card">
+          <div class="tl-when mono">Jul 2023 — Dec 2025</div>
+          <h4 class="tl-role">Bachelor of Computer Science (Cybersecurity)</h4>
+          <div class="tl-org mono">Swinburne University of Technology · Melbourne</div>
+          <p class="tl-desc">Major in <span class="accent">Cybersecurity</span>. Key courses: IT Security, Malware Analysis, Network Security and Resilience, Cloud Computing Architecture, Software Architectures and Design, Object-Oriented Programming, Computer Technology Project (Final Year), and more.</p>
+          <div class="edu-honor"><span class="accent">◆</span> Specialisation: Cybersecurity</div>
+        </div>
+        <div class="edu-card">
+          <div class="tl-when mono">2020 — 2022</div>
+          <h4 class="tl-role">Diploma in Information Technology</h4>
+          <div class="tl-org mono">Asia Pacific University (APU/APIIT) · Kuala Lumpur</div>
+          <p class="tl-desc">Foundation in programming (Java, Python), AI, networking, and software development. Key courses: Introduction to Artificial Intelligence, Networks and Networking, Software Development Project, Discrete Mathematics.</p>
+        </div>
+        <div class="edu-card" style="opacity:.95;">
+          <div class="tl-when mono">certifications</div>
+          <h4 class="tl-role">Certificate of Completion: Claude Code 101</h4>
+          <div class="tl-org mono">Anthropic · Jun 2026</div>
+          <p class="tl-desc">Completed Claude Code 101 certification from Anthropic.</p>
+        </div>
+        <div class="edu-card" style="opacity:.95;">
+          <div class="tl-when mono">certifications</div>
+          <h4 class="tl-role">Certificate of Completion: Claude 101</h4>
+          <div class="tl-org mono">Anthropic · May 2026</div>
+          <p class="tl-desc">Completed Claude 101 certification from Anthropic.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section data-sec id="contact" data-screen-label="Contact">
+  <div class="wrap">
+    <div class="contact-card win reveal">
+      <div class="win-bar">
+        <span class="dots"><i></i><i></i><i></i></span>
+        <span class="win-name mono">~/contact — open to work</span>
+      </div>
+      <div class="term-body">
+        <div class="prompt-line mono">$ ./reach-out --raymond</div>
+        <h2>Let's build something secure.</h2>
+        <p>Open to graduate &amp; junior roles in software and security — Melbourne or remote. Drop a line and I'll reply fast.</p>
+        <div class="contact-actions">
+          <a class="btn solid" href="mailto:wonghuaiwen@gmail.com"><span class="pre">›</span> <span class="__cf_email__" data-cfemail="4e39212029263b2f27392b200e29232f2722602d2123">[email&#160;protected]</span></a>
+          <a class="btn" href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener"><span class="pre">↗</span> github</a>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:wonghuaiwen@gmail.com"><span class="k">email:</span> <span class="__cf_email__" data-cfemail="ee99818089869b8f87998b80ae89838f8782c08d8183">[email&#160;protected]</span></a>
+          <a href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener"><span class="k">git:</span> RaYmOnD-520</a>
+          <a href="https://linkedin.com/in/wong-huai-wen-5447701b3" target="_blank" rel="noopener"><span class="k">in:</span> wong-huai-wen</a>
+          <span><span class="k">loc:</span> Melbourne, AU</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="left mono"><span class="accent">$</span> raymond.dev — built &amp; secured by Raymond Wong · © 2026</div>
+    <div class="right" style="display:flex;gap:22px;align-items:center;">
+      <a href="https://github.com/RaYmOnD-520" target="_blank" rel="noopener">github</a>
+      <a href="https://linkedin.com/in/wong-huai-wen-5447701b3" target="_blank" rel="noopener">linkedin</a>
+      <a class="totop mono" href="#top">↑ top</a>
+    </div>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="app.js"></script>
+
+<!-- Tweaks island (React) -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<div id="tweaks-root"></div>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
+
+</body>
+</html>
