@@ -22,9 +22,8 @@
       <li><a href="#about"><span class="idx">01</span>about</a></li>
       <li><a href="#skills"><span class="idx">02</span>skills</a></li>
       <li><a href="#projects"><span class="idx">03</span>projects</a></li>
-      <li><a href="#experience"><span class="idx">04</span>experience</a></li>
-      <li><a href="#education"><span class="idx">05</span>education</a></li>
-      <li><a href="#contact"><span class="idx">06</span>contact</a></li>
+      <li><a href="#experience"><span class="idx">04</span>experience &amp; education</a></li>
+      <li><a href="#contact"><span class="idx">05</span>contact</a></li>
     </ul>
     <div class="nav-cta">
       <a class="btn" href="#contact"><span class="pre">$</span> get in touch</a>
@@ -215,20 +214,19 @@
       <article class="proj feature win reveal">
         <div class="win-bar">
           <span class="dots"><i></i><i></i><i></i></span>
-          <span class="win-name mono">~/projects/<span class="accent">rag-ai-assistant</span></span>
+          <span class="win-name mono">~/projects/<span class="accent">koda-rag-ai-assistant</span></span>
         </div>
         <div class="win-body">
           <div class="proj-main">
-            <h3>RAG AI Assistant</h3>
+            <h3>KoDa — RAG AI Assistant v2.0</h3>
             <div class="proj-sub mono">retrieval-augmented assistant · full-stack</div>
-            <p>A document-grounded AI assistant that ingests a knowledge base into a <strong>ChromaDB</strong> vector store, retrieves relevant context on each query, and streams answers from <strong>Claude</strong> through a <strong>FastAPI</strong> backend. The React + Vite + Tailwind frontend delivers a fast, chat-style interface with source citations — so responses stay grounded instead of hallucinated.</p>
+            <p>Multi-document RAG assistant with file upload/delete, per-document chat history, suggestion chips, chat export, and markdown rendering. Built with <strong>Python</strong>, <strong>FastAPI</strong>, <strong>ChromaDB</strong> for vector storage, and <strong>React</strong> frontend powered by <strong>Claude API</strong>.</p>
             <div class="tags">
+              <span class="tag">Python</span>
               <span class="tag">FastAPI</span>
+              <span class="tag">ChromaDB</span>
               <span class="tag">React</span>
               <span class="tag">Claude API</span>
-              <span class="tag">ChromaDB</span>
-              <span class="tag">Vite</span>
-              <span class="tag">Tailwind</span>
             </div>
             <div class="proj-links">
               <a class="btn solid" href="https://github.com/RaYmOnD-520/rag-ai-assistant" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
@@ -238,12 +236,12 @@
           <div class="proj-side">
             <div class="side-h">// highlights</div>
             <ul>
-              <li>Semantic retrieval over embedded docs</li>
-              <li>Streaming responses with source citations</li>
-              <li>Typed FastAPI endpoints + async I/O</li>
+              <li>Multi-document file upload/delete system</li>
+              <li>Per-document chat history tracking</li>
+              <li>Markdown rendering + chat export</li>
             </ul>
             <div class="side-h">// stack</div>
-            <div class="metric"><span class="num">4</span><span class="lbl">services orchestrated</span></div>
+            <div class="metric"><span class="num">v2.0</span><span class="lbl">major version</span></div>
             <div class="metric"><span class="num">RAG</span><span class="lbl">grounded generation</span></div>
           </div>
         </div>
@@ -318,6 +316,77 @@
             <div class="side-h">// stack</div>
             <div class="metric"><span class="num">5</span><span class="lbl">threat types detected</span></div>
             <div class="metric"><span class="num">AI</span><span class="lbl">grounded analysis</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj feature win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">dataforge-dashboard</span></span>
+        </div>
+        <div class="win-body">
+          <div class="proj-main">
+            <h3>DataForge Dashboard</h3>
+            <div class="proj-sub mono">data analysis · full-stack · visualization</div>
+            <p>Full-stack data analysis dashboard with CSV upload, automated pandas quality reporting, and interactive custom SVG charts. Built with <strong>Python</strong>, <strong>FastAPI</strong> backend, <strong>pandas</strong> for data processing, and <strong>React</strong> + <strong>Vite</strong> frontend.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">pandas</span>
+              <span class="tag">React</span>
+              <span class="tag">Vite</span>
+            </div>
+            <div class="proj-links">
+              <a class="btn solid" href="https://github.com/RaYmOnD-520/dataforge-dashboard" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
+              <a class="btn" href="https://raymond-520.github.io/dataforge-dashboard" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
+            </div>
+          </div>
+          <div class="proj-side">
+            <div class="side-h">// highlights</div>
+            <ul>
+              <li>CSV upload with automated quality reports</li>
+              <li>Interactive custom SVG charts</li>
+              <li>Pandas-powered data analysis</li>
+            </ul>
+            <div class="side-h">// stack</div>
+            <div class="metric"><span class="num">CSV</span><span class="lbl">data import</span></div>
+            <div class="metric"><span class="num">SVG</span><span class="lbl">custom charts</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj feature win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">codecollab</span></span>
+        </div>
+        <div class="win-body">
+          <div class="proj-main">
+            <h3>CodeCollab — Real-Time Collaborative Code Editor</h3>
+            <div class="proj-sub mono">real-time collaboration · full-stack</div>
+            <p>Real-time collaborative code editor with WebSocket room system, live user count, join notifications, file import/export, filename sync across users, and VS Code-style activity panel. Built with <strong>React</strong>, <strong>FastAPI</strong>, <strong>WebSockets</strong>, and <strong>Monaco Editor</strong>.</p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">Monaco Editor</span>
+            </div>
+            <div class="proj-links">
+              <a class="btn solid" href="https://github.com/RaYmOnD-520/Collaborative-Code-Editor" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
+              <a class="btn" href="https://github.com/RaYmOnD-520/Collaborative-Code-Editor" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
+            </div>
+          </div>
+          <div class="proj-side">
+            <div class="side-h">// highlights</div>
+            <ul>
+              <li>Real-time WebSocket room system</li>
+              <li>Live user count + join notifications</li>
+              <li>File import/export with filename sync</li>
+            </ul>
+            <div class="side-h">// stack</div>
+            <div class="metric"><span class="num">WS</span><span class="lbl">real-time sync</span></div>
+            <div class="metric"><span class="num">Monaco</span><span class="lbl">VS Code editor</span></div>
           </div>
         </div>
       </article>
