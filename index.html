@@ -16,7 +16,7 @@
 <nav class="nav" id="nav">
   <div class="wrap">
     <a class="brand" href="#top" aria-label="Home">
-      <span class="sigil">$</span><span>raymond</span><span class="mono">.dev</span><span class="blink">_</span>
+      <span class="sigil">&lt;/&gt;</span><span>raymond</span><span class="mono">.dev</span><span class="blink">_</span>
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#about"><span class="idx">01</span>about</a></li>
@@ -26,7 +26,7 @@
       <li><a href="#contact"><span class="idx">05</span>contact</a></li>
     </ul>
     <div class="nav-cta">
-      <a class="btn" href="#contact"><span class="pre">$</span> get in touch</a>
+      <a class="btn" href="#contact"><span class="pre">✉</span> get in touch</a>
     </div>
     <button class="nav-burger" id="burger" aria-label="Menu">≡</button>
   </div>
@@ -148,13 +148,16 @@
       <div class="skill-card reveal">
         <h3>Languages</h3>
         <div class="meter"><div class="meter-top"><span>Python</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="90"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>TypeScript</span><span class="lvl">familiar</span></div><div class="meter-track"><div class="meter-fill" data-w="68"></div></div></div>
         <div class="meter"><div class="meter-top"><span>JavaScript</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="85"></div></div></div>
         <div class="meter"><div class="meter-top"><span>SQL</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="72"></div></div></div>
       </div>
 
       <div class="skill-card reveal">
         <h3>Backend / Data</h3>
+        <div class="meter"><div class="meter-top"><span>NestJS</span><span class="lvl">familiar</span></div><div class="meter-track"><div class="meter-fill" data-w="65"></div></div></div>
         <div class="meter"><div class="meter-top"><span>FastAPI</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="88"></div></div></div>
+        <div class="meter"><div class="meter-top"><span>Redis / BullMQ</span><span class="lvl">familiar</span></div><div class="meter-track"><div class="meter-fill" data-w="65"></div></div></div>
         <div class="meter"><div class="meter-top"><span>ChromaDB / Vector DB</span><span class="lvl">proficient</span></div><div class="meter-track"><div class="meter-fill" data-w="80"></div></div></div>
         <div class="meter"><div class="meter-top"><span>REST APIs</span><span class="lvl">advanced</span></div><div class="meter-track"><div class="meter-fill" data-w="85"></div></div></div>
       </div>
@@ -214,6 +217,42 @@
       <article class="proj feature win reveal">
         <div class="win-bar">
           <span class="dots"><i></i><i></i><i></i></span>
+          <span class="win-name mono">~/projects/<span class="accent">loomis</span></span>
+        </div>
+        <div class="win-body">
+          <div class="proj-main">
+            <h3>Loomis — Distributed Task Queue System</h3>
+            <div class="proj-sub mono">async job processing · backend architecture</div>
+            <p>Production-grade distributed task queue system demonstrating async job processing with <strong>NestJS</strong>, <strong>BullMQ</strong>, and <strong>Redis</strong>. Features live-polling dashboard built with <strong>React</strong> and <strong>Tailwind CSS v4</strong> showing queue health, job states, and retry mechanics with exponential backoff.</p>
+            <div class="tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">NestJS</span>
+              <span class="tag">BullMQ</span>
+              <span class="tag">Redis</span>
+              <span class="tag">React</span>
+              <span class="tag">Tailwind CSS v4</span>
+            </div>
+            <div class="proj-links">
+              <a class="btn solid" href="https://github.com/RaYmOnD-520/loomis" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
+            </div>
+          </div>
+          <div class="proj-side">
+            <div class="side-h">// highlights</div>
+            <ul>
+              <li>Hybrid storage approach (Redis + in-memory)</li>
+              <li>Built-in retry with exponential backoff</li>
+              <li>Real-time queue health monitoring</li>
+            </ul>
+            <div class="side-h">// stack</div>
+            <div class="metric"><span class="num">TS</span><span class="lbl">first TypeScript project</span></div>
+            <div class="metric"><span class="num">3</span><span class="lbl">retry attempts</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj feature win reveal">
+        <div class="win-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
           <span class="win-name mono">~/projects/<span class="accent">koda-rag-ai-assistant</span></span>
         </div>
         <div class="win-body">
@@ -230,7 +269,6 @@
             </div>
             <div class="proj-links">
               <a class="btn solid" href="https://github.com/RaYmOnD-520/rag-ai-assistant" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
-              <a class="btn" href="https://github.com/RaYmOnD-520/rag-ai-assistant" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
             </div>
           </div>
           <div class="proj-side">
@@ -343,7 +381,6 @@
             </div>
             <div class="proj-links">
               <a class="btn solid" href="https://github.com/RaYmOnD-520/security-log-dashboard" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
-              <a class="btn" href="https://github.com/RaYmOnD-520/security-log-dashboard" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
             </div>
           </div>
           <div class="proj-side">
@@ -414,7 +451,6 @@
             </div>
             <div class="proj-links">
               <a class="btn solid" href="https://github.com/RaYmOnD-520/Collaborative-Code-Editor" target="_blank" rel="noopener"><span class="pre">›</span> source</a>
-              <a class="btn" href="https://github.com/RaYmOnD-520/Collaborative-Code-Editor" target="_blank" rel="noopener"><span class="pre">↗</span> live demo</a>
             </div>
           </div>
           <div class="proj-side">
